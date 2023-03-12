@@ -2,16 +2,6 @@
 
 文档名称：C++工程目录规范
 
-| 序号 | 更改原因 | 版本 | 作者 | 更改日期 | 备注 |
-| ---- | -------- | ---- | ---- | -------- | ---- |
-|   1   | 创建文档 | v0.1 | Hatton | 2019.7.10 | 无 |
-|      |          |      |      |          |      |
-|      |          |      |      |          |      |
-
-# 前言
-
-由于组内项目代码几乎没有规范的目录结构，几经迭代开发之后，整个项目代码看起来已经惨不忍睹。于是，笔者针对C++工程目录的规范进行了调研。不过，项目目录的规范本身就是一个仁者见仁智者见智的问题，就好比笔者和组长在针对头文件的存放问题上就存在了分歧。不过，这种规范的事情哪有对错，干脆组内项目就按照组长的意思来，自己做项目的话还是按照自己的想法舒服一点，于是乎这个 `repo` 就产生了。这个目录结构参考了大量的网络资料，经过笔者的理解总结而成，不过笔者也没有什么丰富的工程经验，只是按照现有的理解感觉这么分配比较合理。当然，有规范总比没有好，先按此规范执行，若发现不合适的地方再进行调整。
-
 # 顶层目录结构
 
 ```shell
@@ -114,41 +104,3 @@ include
 
 1. 添加cmake示例。
 2. 添加简单工程示例。
-
-# 参考
-
-大型项目CMakeLIsts.txt的编写规范
-https://blog.csdn.net/dongfang1984/article/details/55105537
-
-CmakeLists.txt书写规范
-https://blog.csdn.net/csdnhuaong/article/details/80895679
-
-cmake简介与编写规范
-http://675816156.github.io/2016/06/26/cmake%E7%AE%80%E4%BB%8B%E4%B8%8E%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83/
-
-C++工程目录架构推荐
-https://www.cnblogs.com/kuliuheng/p/5729559.html
-
-A Simple C++ Project Structure
-https://hiltmon.com/blog/2013/07/03/a-simple-c-plus-plus-project-structure/
-
-Directory Structure for a C++ Project
-https://mariuszbartosik.com/directory-structure-for-a-c-project/
-
-C++ application development ( Part 1 — Project structure )
-https://medium.com/heuristics/c-application-development-part-1-project-structure-454b00f9eddc
-
-AakashMallik/C++ project structure （与上个参考重）
-https://gist.github.com/AakashMallik/f7451b09a0807ed7203fb97cd125bff5#file-c-project-structure
-
-Filesystem Hierarchy Standard
-http://www.pathname.com/fhs/pub/fhs-2.3.html
-
-How to structure your project
-https://cliutils.gitlab.io/modern-cmake/chapters/basics/structure.html
-
-kigster/cmake-project-template
-https://github.com/kigster/cmake-project-template
-
-opencv/opencv
-https://github.com/opencv/opencv
